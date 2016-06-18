@@ -1,0 +1,5 @@
+print "Hello Python"
+print "Hello world!"
+print "Hello python I am gyt ,I am coming!"
+print "come on !"
+print "Let's begin!"
