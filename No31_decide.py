@@ -26,6 +26,12 @@ elif(door == '2'):
 		print "You will not hadppy at last."
 	else:
 		print "You will have a hadppy life."
+#特别注意：强制转换不是 (int)x，而是int(x)
+elif( 3 <= int(door) < 10 ):
+	print "You fall from floor 10 and fall on knife and die.Game over!!!"
+
+elif(int(door) in range (11,50)):
+	print "You are out of contronl .Please call 110."
 
 else:
-	print "You fall from floor 10 and fall on knife and die.Game over!!!"
+	print "You are super and God bless You!"
