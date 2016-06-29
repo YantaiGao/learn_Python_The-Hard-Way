@@ -30,7 +30,8 @@ elif(door == '2'):
 elif( 3 <= int(door) < 10 ):
 	print "You fall from floor 10 and fall on knife and die.Game over!!!"
 
-elif(int(door) in range (11,50)):
+#注意：并不包含50，range()不包含最后一个数字
+elif(int(door) in range (10,50)):
 	print "You are out of contronl .Please call 110."
 
 else:
