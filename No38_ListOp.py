@@ -31,8 +31,14 @@ print "Here we go: ",stuff
 
 #注意：下标从0开始！！！
 print stuff[1]
-#-1是最后一个
+
+#注意：-1是最后一个，下标从-1开始 ，从后向前遍历
 print "stuff[-1] == ",stuff[-1]
 print "stuff[-2] == ",stuff[-2]
-
 print stuff.pop()
+#注意：并没有修改数组实际的元素
+print ' '.join(stuff)
+#stuff[3:5]类似range()
+print '#'.join(stuff[3:5])
+
+print stuff
