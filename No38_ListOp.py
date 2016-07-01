@@ -7,7 +7,7 @@ class Thing(object):
 	def test(self,hi):
 		print hi
 
-a = Thing()
+a = Thing()#这是声明类的一个对象
 a.test("hahaha")
 
 print "---------------------------------"
