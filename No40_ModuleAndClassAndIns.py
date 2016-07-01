@@ -21,5 +21,6 @@ thing = MyStuff()
 thing.apple()
 print "thing.attr: ", thing.attr
 
+print '*' * 40
 print "We do exercise: "
 		
