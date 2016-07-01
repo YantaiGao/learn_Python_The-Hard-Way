@@ -24,12 +24,15 @@ print stuff
 print '*' * 40
 
 #注意：使用中括号是不对的
+#注意：单引号和双引号都是可以的，为了美观和方便，使用单引号
 states = {
 	'Oregon':'OR',
 	'Florida':'FL',
 	'New York':'NY',
 	'California':'CA',
-	'Michigan':'MI'
+	'Michigan':'MI',
+	"Huadong":"HD"
+	
 }
 
 cities = {
