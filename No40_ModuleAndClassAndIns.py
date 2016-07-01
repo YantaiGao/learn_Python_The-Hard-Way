@@ -10,6 +10,8 @@ print "*" * 40
 print "Now we will use class and instance . "
 
 class MyStuff(object):
+	#attr 必须声明，否则在后边取thing.attr的时候会报错，但是现在还是取不到，这个我赋的值
+	attr = "th"#说明构造函数中的赋值不起作用。。。
 	def _init_(self):
 		self.attr = "I am gyt."
 	def apple(self):
@@ -17,5 +19,7 @@ class MyStuff(object):
 
 thing = MyStuff()
 thing.apple()
-print "thing.attr: ",thing.attr
+print "thing.attr: ", thing.attr
+
+print "We do exercise: "
 		
