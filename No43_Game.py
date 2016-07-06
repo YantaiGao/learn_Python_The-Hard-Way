@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+#仔细研究游戏流程调用，很有意思，没有那么简单的一个游戏！！！
+
 #基本导入
 from sys import argv
 from random import randint
@@ -16,11 +18,13 @@ class Engin(object):
 		self.scene_map = scene_map
 		
 	def play(self):
+		#作用：获取一个场景对象实例
 		curren_scene = self.scene_map.open_scene()
 		
 		while True:
 			print "-" * 40
 			next_scene_name = curren_scene.enter()
+			#作用：根据返回值获取一个新的场景对象
 			curren_scene = self.scene_map.next_scene(next_scene_name)
 
 #场景
