@@ -77,5 +77,5 @@ if not state:
 
 #获取默认值
 city = cities.get('TX','Does Not Exist')
-print "The　city for the state \'TX\' is : %s" %city
+print "The city for the state \'TX\' is : %s" %city
 	
