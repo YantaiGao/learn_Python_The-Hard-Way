@@ -2,10 +2,12 @@
 class Room(object):
 	
 	#构造函数 有两个参数
+	#需要特别注意：{}是字典，[]不能表示字典，只能是列表
+	
 	def __init__(self,name,description):
 		self.name = name
 		self.description = description
-		self.paths = []
+		self.paths = {}
 		
 	#go()方法，取paths的指定key的值
 	def go(self,direction):
